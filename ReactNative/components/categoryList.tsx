@@ -1,18 +1,25 @@
 import React from 'react';
-import { useState } from 'react';
 import {
     View,
     Text,
     Image,
-    StyleSheet
+    StyleSheet,
+    Alert,
+    TouchableOpacity
 }from 'react-native'
+import { data } from '../datadumb/data';
 
 export default function CategoryList(props : any){
+    const i = props.index;
+    const onPress = props.onPress;
+
     return (
-    <View style={styles.container}>
-        <Text style={styles.title}>{props.title}</Text>
-        <Image style={styles.categoryImage} source={require(`../assets/images/test1.png`) }/>
-    </View>
+        <TouchableOpacity onPress={onPress}>
+            <View style={styles.container}>
+                <Text style={styles.title}>{data.form[i].title}</Text>
+                <Image style={styles.categoryImage} source={data.form[i].image }/>
+            </View>
+        </TouchableOpacity>
     )
 }
 const styles= StyleSheet.create({

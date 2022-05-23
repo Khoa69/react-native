@@ -1,0 +1,45 @@
+{
+    "categories": [
+        {"id":1,
+        "name":"Dung cu nau an"
+    },
+        {"id":2,
+        "name":"Dung cu lau nha"
+    },
+        {"id":3,
+        "name":"Dung cu truot tuyet"
+    }
+    ],
+    "products":[
+        {"id":1,
+        "image":[
+            {
+                "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.elle.vn%2Fthe-gioi-van-hoa%2F26-hinh-anh-dep-den-nghet-tho-du-khong-chinh-sua-photoshop&psig=AOvVaw2AoqVNFefTeSqkhrGV7AXN&ust=1653374396469000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCLDJvt6B9fcCFQAAAAAdAAAAABAO"
+            }
+        ],
+        "name" :"Test1",
+        "price":"60000",
+        "category":1
+    },
+    {"id":2,
+        "image":[
+            {
+                "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.elle.vn%2Fthe-gioi-van-hoa%2F26-hinh-anh-dep-den-nghet-tho-du-khong-chinh-sua-photoshop&psig=AOvVaw2AoqVNFefTeSqkhrGV7AXN&ust=1653374396469000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCLDJvt6B9fcCFQAAAAAdAAAAABAO"
+            }
+        ],
+        "name" :"Test2",
+        "price":"60000",
+        "category":1
+    },
+    {"id":3,
+        "image":[
+            {
+                "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.elle.vn%2Fthe-gioi-van-hoa%2F26-hinh-anh-dep-den-nghet-tho-du-khong-chinh-sua-photoshop&psig=AOvVaw2AoqVNFefTeSqkhrGV7AXN&ust=1653374396469000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCLDJvt6B9fcCFQAAAAAdAAAAABAO"
+            }
+        ],
+        "name" :"Test3",
+        "price":"60000",
+        "category":3
+    }
+    ]
+}
